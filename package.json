@@ -10,12 +10,12 @@
     "author": "Antonio Pereira",
     "license": "ISC",
     "devDependencies": {
-        "type": "module",
         "gulp": "^4.0.2",
         "gulp-concat": "^2.6.1",
         "gulp-cssmin": "^0.2.0",
         "gulp-rename": "^2.0.0",
-        "gulp-uglify": "^3.0.2"
+        "gulp-uglify": "^3.0.2",
+        "type": "module"
     },
     "dependencies": {
         "bootstrap": "^5.1.3",
