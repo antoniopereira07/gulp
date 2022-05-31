@@ -10,6 +10,7 @@
     "author": "Antonio Pereira",
     "license": "ISC",
     "devDependencies": {
+        "type": "module",
         "gulp": "^4.0.2",
         "gulp-concat": "^2.6.1",
         "gulp-cssmin": "^0.2.0",
