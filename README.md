@@ -51,5 +51,5 @@ Todo o processo é executado apartir do node.js e gulp-cli (linha de comando)
 - Executar o comando:
 ---
 npm install
-
+gulp serve
 ---
