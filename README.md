@@ -49,6 +49,7 @@ Todo o processo é executado apartir do node.js e gulp-cli (linha de comando)
 
 ## Rodar o projeto
 - Executar o comando:
----
+```
 npm install
----
+gulp serve
+```
