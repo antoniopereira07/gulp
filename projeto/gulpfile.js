@@ -24,7 +24,7 @@ function tarefasCSS(cb) {
         .pipe(stripCss())                   // remove comentários do css
         .pipe(concat('styles.css'))         // mescla arquivos
         .pipe(cssmin())                     // minifica css
-        .pipe(rename({ suffix: '.min'}))    // libs.min.css
+        .pipe(rename({ suffix: '.min'}))    // styles.min.css
         .pipe(gulp.dest('./dist/css'))      // cria arquivo em novo diretório
     cb()
 
@@ -45,7 +45,7 @@ function tarefasJS(callback){
             presets: ['@babel/env']
         }))                
         .pipe(concat('scripts.js'))         // mescla arquivos
-        //.pipe(uglify())                     // minifica js
+        .pipe(uglify())                     // minifica js
         .pipe(rename({ suffix: '.min'}))    // scripts.min.js
         .pipe(gulp.dest('./dist/js'))       // cria arquivo em novo diretório
     
