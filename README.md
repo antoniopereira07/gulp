@@ -30,9 +30,11 @@ Todo o processo é executado apartir do node.js e gulp-cli (linha de comando)
 - Já o Gulp e seus plugins são instalados localmente (em cada projeto)
 
 ## Gerenciadores de pacotes
+- Dependências do projeto
 - NPM: Node Package Manager
 - Utiliza o Node.js
 - Permite a configuração rápida e fácil de ambientes e plugins Node
+
 
 ## Instalando o Gulp
 - Rodar o Node.js
@@ -49,7 +51,6 @@ Todo o processo é executado apartir do node.js e gulp-cli (linha de comando)
 
 ## Rodar o projeto
 - Executar o comando:
----
+```
 npm install
-
----
+```
