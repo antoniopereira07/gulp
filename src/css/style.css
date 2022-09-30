@@ -124,7 +124,7 @@ a {
 /* Banner Style */
 .banner {
 	margin-top: 50px;
-	background-image: url(../assets/images/banner-bg.jpg);
+	background-image: url(../images/banner-bg.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	padding: 150px 0px;
@@ -737,4 +737,20 @@ a {
 		text-align: left;
 	} 
 
+}
+
+::placeholder {
+	color: #fff
+}
+
+#email {
+	position: relative;
+}
+
+.invalid {
+	border-color: #F00;
+}
+
+.text-muted {
+	display: none;
 }
